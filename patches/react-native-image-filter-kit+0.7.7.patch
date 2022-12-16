@@ -1,0 +1,20 @@
+diff --git a/node_modules/react-native-image-filter-kit/ios/IFKFilterableImage.h b/node_modules/react-native-image-filter-kit/ios/IFKFilterableImage.h
+index 8651bef..01dd103 100644
+--- a/node_modules/react-native-image-filter-kit/ios/IFKFilterableImage.h
++++ b/node_modules/react-native-image-filter-kit/ios/IFKFilterableImage.h
+@@ -1,4 +1,4 @@
+-#import "RCTImageView.h"
++#import <React/RCTImageView.h>
+ #import "IFKPostProcessor.h"
+ 
+ @interface IFKFilterableImage : NSObject
+diff --git a/node_modules/react-native-image-filter-kit/ios/RCTImageView+CacheKey.h b/node_modules/react-native-image-filter-kit/ios/RCTImageView+CacheKey.h
+index ea580ab..9590c8a 100644
+--- a/node_modules/react-native-image-filter-kit/ios/RCTImageView+CacheKey.h
++++ b/node_modules/react-native-image-filter-kit/ios/RCTImageView+CacheKey.h
+@@ -1,4 +1,4 @@
+-#import "RCTImageView.h"
++#import <React/RCTImageView.h>
+ #import "IFKCacheable.h"
+ 
+ @interface RCTImageView (CacheKey) <IFKCacheable>
